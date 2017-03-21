@@ -234,7 +234,6 @@ public class Testing {
         $("[class='countdown_desc']").waitUntil(Condition.visible, 50000);
         $(by("href*","http://ctn.tickets.ua")).click();
         $("[class='btn cancel cancel_booking js-cancel-booking']").waitUntil(Condition.visible, 50000).click();
-        System.out.println(1);
     }
 
 }
